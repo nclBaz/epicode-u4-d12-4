@@ -20,4 +20,4 @@ const usersSchema = new Schema(
   }
 )
 
-model("User", usersSchema) // this model is now automagically linked to the "users" collection, if the collection does not exist it will be created
+export default model("User", usersSchema) // this model is now automagically linked to the "users" collection, if the collection does not exist it will be created
